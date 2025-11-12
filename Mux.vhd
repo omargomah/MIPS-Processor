@@ -1,14 +1,14 @@
+
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-entity Adder is
-    port (  
-        A: in  std_logic_vector(31 downto 0);
-        B: in  std_logic_vector(31 downto 0);
-        Sum     : out std_logic_vector(31 downto 0);
-    );
-end entity Addert;
-architecture Behavioral of Adder is
+entity Mux is
+    port (
+       A: in  std_logic_vector(31 downto 0);
+       B: in  std_logic_vector(31 downto 0);
+       Sel: in  std_logic;
+       Y: out std_logic_vector(31 downto 0));
+end  Mux ;
+architecture behavier of Mux  is
 begin
-    Sum <= std_logic_vector(unsigned(A) + unsigned(B));
-end architecture Behavioral;
+    Y<= B when Sel = '1' else A;
+end behavier;
