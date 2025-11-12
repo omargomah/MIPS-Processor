@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Level_3/data_1/Orgnization/practise_On_VHDL
+T_opt
+!s110 1762972333
+VkWEVgQ4IKWj8c<^aAdPfL0
+04 5 10 work adder behavioral 1
+=1-20c19b393587-6914d2ad-29f-3ab0
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Eadder
+Z0 w1762972312
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 dD:/Level_3/data_1/Orgnization/MIPS-Processor
+Z5 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd
+Z6 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd
+l0
+L4
+VA8I1BTbCmScC@6aDB3KFZ0
+!s100 zUCO@DAZ<hQ0[@@j?Tf`90
+Z7 OL;C;10.7;67
+32
+Z8 !s110 1762972314
+!i10b 1
+Z9 !s108 1762972314.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd|
+Z11 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 5 adder 0 22 A8I1BTbCmScC@6aDB3KFZ0
+l11
+L10
+VM;__W0D=cRgk8HCl?H=Mo2
+!s100 ca@E=IeXI[kc7>n>A0F__1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
