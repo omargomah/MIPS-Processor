@@ -4,6 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity instruction_momery is 
 port(
+clk: in std_logic;
 address:in std_logic_vector(31 downto 0); 
 word_out:out std_logic_vector(31 downto 0)
 );
@@ -113,12 +114,14 @@ signal my_memory : ins_memory :=
     others=>x"00"
 );
 
-
 begin
+process(clk)
+begin
+if rising_edge(clk) then
 word_out(31 downto 24)<=my_memory(to_integer(unsigned(address)));
 word_out(23 downto 16)<=my_memory(to_integer(unsigned(address)+1));
 word_out(15 downto 8)<=my_memory(to_integer(unsigned(address)+2));
 word_out(7 downto 0)<=my_memory(to_integer(unsigned(address)+3));
-
-
+end if;
+end process;
 end Behavioral;
