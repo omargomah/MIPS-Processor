@@ -6,7 +6,7 @@ entity Adder is
         A: in  std_logic_vector(31 downto 0);
         B: in  std_logic_vector(31 downto 0);
        Sum: out std_logic_vector(31 downto 0));
-end entity Addert;
+end entity Adder;
 architecture Behavioral of Adder is
 begin
     Sum <= std_logic_vector(unsigned(A) + unsigned(B));

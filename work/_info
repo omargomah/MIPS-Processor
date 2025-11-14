@@ -19,7 +19,7 @@ n@_opt
 OL;O;10.7;67
 R0
 Eadder
-Z1 w1762972312
+Z1 w1763134446
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -32,9 +32,9 @@ VA8I1BTbCmScC@6aDB3KFZ0
 !s100 zUCO@DAZ<hQ0[@@j?Tf`90
 Z8 OL;C;10.7;67
 32
-Z9 !s110 1762972314
+Z9 !s110 1763134455
 !i10b 1
-Z10 !s108 1762972314.000000
+Z10 !s108 1763134455.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd|
 Z12 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd|
 !i113 0
@@ -47,8 +47,8 @@ R4
 DEx4 work 5 adder 0 22 A8I1BTbCmScC@6aDB3KFZ0
 l11
 L10
-VM;__W0D=cRgk8HCl?H=Mo2
-!s100 ca@E=IeXI[kc7>n>A0F__1
+VQ`al^l=EgnWoz7iXEPWE73
+!s100 cClIM8GD6cbD5Sm9Z][CZ3
 R8
 32
 R9
@@ -59,42 +59,339 @@ R12
 !i113 0
 R13
 R14
-Emux
-Z15 w1762972876
+Ealu
+Z15 w1763137751
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R3
 R4
 R5
-Z16 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd
-Z17 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd
+Z18 8D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU.vhd
+Z19 FD:/Level_3/data_1/Orgnization/MIPS-Processor/ALU.vhd
 l0
-L4
-VTLg^Rm6fQRdQ_Vi4MII6[1
-!s100 j?nbTYe8ZBHbeSC<[1>G]0
+L6
+Vd`4PVj8bW^5b6GfViJ10a1
+!s100 :6jS5h:BJ=<`zKX?378E01
 R8
 32
-Z18 !s110 1762972878
+Z20 !s110 1763137754
 !i10b 1
-Z19 !s108 1762972878.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd|
-Z21 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd|
+Z21 !s108 1763137754.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU.vhd|
+Z23 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 3 alu 0 22 d`4PVj8bW^5b6GfViJ10a1
+l19
+L17
+V?2=Nkk3=_<P`aB14ChQRO0
+!s100 BgAgRXj_YJ3cmjcf]M<f<0
+R8
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R13
+R14
+Ealu_control_unit
+Z24 w1763126323
+R16
+R17
+R3
+R4
+R5
+Z25 8D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd
+Z26 FD:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd
+l0
+L8
+VAdio3fVYAfKZ<3G@Q^Lhh1
+!s100 Mz84Fn39<2oM:Y6TW6PGE1
+R8
+32
+Z27 !s110 1763126479
+!i10b 1
+Z28 !s108 1763126479.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd|
+Z30 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 16 alu_control_unit 0 22 Adio3fVYAfKZ<3G@Q^Lhh1
+l19
+L18
+VAVPD;TN=6nkA4KQ1=BjBB0
+!s100 53^Q4cC4^F<`LQR?LY3bL0
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R13
+R14
+Econtrol_unit
+R24
+R16
+R17
+R3
+R4
+R5
+Z31 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd
+Z32 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd
+l0
+L7
+VLKh:<hZ4?nTC_n580^kDe2
+!s100 TmkKUM8E<[GZa40Q[KS_a3
+R8
+32
+R27
+!i10b 1
+R28
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd|
+Z34 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 12 control_unit 0 22 LKh:<hZ4?nTC_n580^kDe2
+l25
+L24
+V3mG^;0Qi@O4?PQNz`0h<A1
+!s100 U?YdTz?@261dXaHWNX;be3
+R8
+32
+R27
+!i10b 1
+R28
+R33
+R34
+!i113 0
+R13
+R14
+Edata_mem
+Z35 w1763130311
+R2
+R3
+R4
+R5
+Z36 8D:/Level_3/data_1/Orgnization/MIPS-Processor/d_mem_new.vhd
+Z37 FD:/Level_3/data_1/Orgnization/MIPS-Processor/d_mem_new.vhd
+l0
+L4
+V6:jocl;3_K9DdGdmn<VW<3
+!s100 eb21dmZOn^H39^KY3QO>`2
+R8
+32
+Z38 !s110 1763130321
+!i10b 1
+Z39 !s108 1763130320.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/d_mem_new.vhd|
+Z41 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/d_mem_new.vhd|
+!i113 0
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 6:jocl;3_K9DdGdmn<VW<3
+l21
+L16
+VZ4oMnC]KZ99]e0^a[hn<_1
+!s100 2n_LTZR8IYXTmfEeI5Wk70
+R8
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R13
+R14
+Einstruction_momery
+R24
+R2
+R3
+R4
+R5
+Z42 8D:/Level_3/data_1/Orgnization/MIPS-Processor/instruction_memory_new.vhd
+Z43 FD:/Level_3/data_1/Orgnization/MIPS-Processor/instruction_memory_new.vhd
+l0
+L5
+VBPXm84W36M7dC=cJKO8J:2
+!s100 amM6?enoAi6:V`8kR4z9S3
+R8
+32
+Z44 !s110 1763126480
+!i10b 1
+R28
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/instruction_memory_new.vhd|
+Z46 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/instruction_memory_new.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+DEx4 work 18 instruction_momery 0 22 BPXm84W36M7dC=cJKO8J:2
+l117
+L13
+Vb3n0FYe<GnEOfgC2WQOFj3
+!s100 d;l>Pn3H^44Z>AR@Chb__0
+R8
+32
+R44
+!i10b 1
+R28
+R45
+R46
+!i113 0
+R13
+R14
+Ejump_shift
+Z47 w1763131871
+R16
+R17
+R3
+R4
+R5
+Z48 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd
+Z49 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd
+l0
+L8
+VTi;]Cn3ziCRilH9U2h`m61
+!s100 A:[zj^7O5i0Z]EEiX[`T13
+R8
+32
+Z50 !s110 1763131873
+!i10b 1
+Z51 !s108 1763131873.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd|
+Z53 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 10 jump_shift 0 22 Ti;]Cn3ziCRilH9U2h`m61
+l15
+L13
+Vk`Xm=SQ`hi3<dS2Hi8W7C3
+!s100 >ehYG>db5PYXaYYh8=2Jn0
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R13
+R14
+Emips_single_cycle
+Z54 w1763136989
+R16
+R17
+R3
+R4
+R5
+Z55 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd
+Z56 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd
+l0
+L5
+VdS217O4iQ>`WPD98;4zai3
+!s100 Pa4_eKnh59L7Z6T?Td[:l0
+R8
+32
+Z57 !s110 1763139522
+!i10b 1
+Z58 !s108 1763139522.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd|
+Z60 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd|
+!i113 0
+R13
+R14
+Abehavier
+R16
+R17
+R3
+R4
+Z61 DEx4 work 17 mips_single_cycle 0 22 dS217O4iQ>`WPD98;4zai3
+l121
+L10
+Z62 V@_a<8cOF@NckcF_3@CdeT1
+Z63 !s100 ;`=cA8P[?I;2XJT92STLe0
+R8
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R13
+R14
+Emux
+Z64 w1763129558
+R3
+R4
+R5
+Z65 8D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd
+Z66 FD:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd
+l0
+L4
+VNn?j]VI?]]MRg38J6Dc2g0
+!s100 bC>FS<b6jQUR`MSW5L>=A2
+R8
+32
+Z67 !s110 1763129568
+!i10b 1
+Z68 !s108 1763129568.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd|
+Z70 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd|
 !i113 0
 R13
 R14
 Abehavier
 R3
 R4
-DEx4 work 3 mux 0 22 TLg^Rm6fQRdQ_Vi4MII6[1
+DEx4 work 3 mux 0 22 Nn?j]VI?]]MRg38J6Dc2g0
 l12
 L11
 VLU^G1NlIA=bYdez4jhOc81
 !s100 ;meT7LZ0U6`W9I89TkK^F1
 R8
 32
-R18
+R67
 !i10b 1
-R19
-R20
-R21
+R68
+R69
+R70
 !i113 0
 R13
 R14
@@ -103,8 +400,8 @@ w1762972776
 R3
 R4
 R5
-R16
-R17
+8D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd
+FD:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd
 l0
 L4
 VZR8Q_DCYbPS[GEAiJNmYd1
@@ -114,8 +411,217 @@ R8
 !s110 1762972779
 !i10b 1
 !s108 1762972779.000000
-R20
-R21
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd|
+!s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd|
+!i113 0
+R13
+R14
+Emux_5
+Z71 w1763136978
+R3
+R4
+R5
+R65
+R66
+l0
+L3
+Vf:ailoIkJ^I5nLa>X8A2J3
+!s100 ??9gBi:3j^5[WW=iz55b]2
+R8
+32
+Z72 !s110 1763136982
+!i10b 1
+Z73 !s108 1763136982.000000
+R69
+R70
+!i113 0
+R13
+R14
+Abehavier
+R3
+R4
+DEx4 work 5 mux_5 0 22 f:ailoIkJ^I5nLa>X8A2J3
+l11
+L10
+VSLM`O<Zh3aRXc;OZod4T<3
+!s100 DRU3WSZjbfVnSzbXbJhK`1
+R8
+32
+R72
+!i10b 1
+R73
+R69
+R70
+!i113 0
+R13
+R14
+Epc
+R24
+R16
+R17
+R3
+R4
+R5
+Z74 8D:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd
+Z75 FD:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd
+l0
+L8
+V]mzAXOh8?2E[YW>?CVDb52
+!s100 ^SJN5CM4CkJo=`Ko>ggdb2
+R8
+32
+R44
+!i10b 1
+Z76 !s108 1763126480.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd|
+Z78 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd|
+!i113 0
+R13
+R14
+Abehavioural
+R16
+R17
+R3
+R4
+DEx4 work 2 pc 0 22 ]mzAXOh8?2E[YW>?CVDb52
+l18
+L15
+V0^PaLea484;hYK9IigIWT2
+!s100 z1SFlccAS2elfgXz2F^SD1
+R8
+32
+R44
+!i10b 1
+R76
+R77
+R78
+!i113 0
+R13
+R14
+Ereg_file
+Z79 w1763136477
+R2
+R3
+R4
+R5
+Z80 8D:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd
+Z81 FD:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd
+l0
+L4
+VjAZE2H_ldbVbZFPRGJg:N3
+!s100 n_O2h@7f5gLNl7JLT0Di>3
+R8
+32
+Z82 !s110 1763136478
+!i10b 1
+Z83 !s108 1763136478.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd|
+Z85 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd|
+!i113 0
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 8 reg_file 0 22 jAZE2H_ldbVbZFPRGJg:N3
+l77
+L18
+VJoX8m@JmLB@9Lg;i86hKH1
+!s100 m6[PaUk_HOhmdef<C52?72
+R8
+32
+R82
+!i10b 1
+R83
+R84
+R85
+!i113 0
+R13
+R14
+Eshift
+R24
+R16
+R17
+R3
+R4
+R5
+Z86 8D:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd
+Z87 FD:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd
+l0
+L8
+Vc3lmZA7<@Ld<M4dn3I<L93
+!s100 ]`T?RhgKl37c9QnHQ@NIE1
+R8
+32
+R44
+!i10b 1
+R76
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd|
+Z89 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 5 shift 0 22 c3lmZA7<@Ld<M4dn3I<L93
+l15
+L13
+VK2@ai0U3UfVMD9;c3jeXa3
+!s100 DBXaH@53PzoOJ:mPdeXF41
+R8
+32
+R44
+!i10b 1
+R76
+R88
+R89
+!i113 0
+R13
+R14
+Esign_extend
+R24
+R16
+R17
+R3
+R4
+R5
+Z90 8D:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd
+Z91 FD:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd
+l0
+L9
+V??`>J]5>^IR6o29@47Cgz1
+!s100 [hl_D_5;A18A;5:Z66l2<1
+R8
+32
+Z92 !s110 1763126481
+!i10b 1
+R76
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd|
+Z94 !s107 D:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R16
+R17
+R3
+R4
+DEx4 work 11 sign_extend 0 22 ??`>J]5>^IR6o29@47Cgz1
+l17
+L14
+VISjRdAMC]dk>YI79CL@BF1
+!s100 TXE?>@@4^3bV6LMHCd]P;2
+R8
+32
+R92
+!i10b 1
+R76
+R93
+R94
 !i113 0
 R13
 R14
