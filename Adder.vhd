@@ -9,5 +9,5 @@ entity Adder is
 end entity Adder;
 architecture Behavioral of Adder is
 begin
-    Sum <= std_logic_vector(unsigned(A) + unsigned(B));
+    Sum <= std_logic_vector(signed(A) + signed(B));
 end architecture Behavioral;
