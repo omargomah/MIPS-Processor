@@ -1,14 +1,4 @@
-D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd
-Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity Mips_single_cycle
--- Compiling architecture behavier of Mips_single_cycle
-
-} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd
+D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Jump_Shift.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -18,6 +8,16 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling entity Jump_Shift
 -- Compiling architecture Behavioral of Jump_Shift
 
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Mips_single_cycle.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Mips_single_cycle
+-- Compiling architecture behavier of Mips_single_cycle
+
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STANDARD
@@ -25,6 +25,16 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package std_logic_1164
 -- Compiling entity Mux
 -- Compiling architecture behavier of Mux
+
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/ID_EX_StateRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/ID_EX_StateRegister.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ID_EX_StateRegister
+-- Compiling architecture Behavioural of ID_EX_StateRegister
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/reg_file_new.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
@@ -35,14 +45,15 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling entity reg_file
 -- Compiling architecture rtl of reg_file
 
-} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/IF_ID_StateRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/IF_ID_StateRegister.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Adder
--- Compiling architecture Behavioral of Adder
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity IF_ID_StateRegister
+-- Compiling architecture Behavioural of IF_ID_StateRegister
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/SIGN_EXTEND.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
@@ -53,6 +64,25 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity SIGN_EXTEND
 -- Compiling architecture Behavioral of SIGN_EXTEND
+
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Adder.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Adder
+-- Compiling architecture Behavioral of Adder
+
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_old.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_old.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture behavioral of ALU
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/ALU_Control.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
@@ -79,8 +109,8 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity instruction_momery
--- Compiling architecture Behavioral of instruction_momery
+-- Compiling entity instruction_momery_new
+-- Compiling architecture Behavioral of instruction_momery_new
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/PC.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
@@ -92,13 +122,15 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling entity PC
 -- Compiling architecture Behavioural of PC
 
-} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/MEM_WB_StateRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/MEM_WB_StateRegister.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Mux_5
--- Compiling architecture behavier of Mux_5
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MEM_WB_StateRegister
+-- Compiling architecture Behavioural of MEM_WB_StateRegister
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/SHIFT.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
@@ -109,6 +141,24 @@ Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity SHIFT
 -- Compiling architecture Behavioral of SHIFT
+
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Mux_5.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux_5
+-- Compiling architecture behavier of Mux_5
+
+} {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/EX_MEM_StateRegister.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/EX_MEM_StateRegister.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity EX_MEM_StateRegister
+-- Compiling architecture Behavioural of EX_MEM_StateRegister
 
 } {} {}} D:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Level_3/data_1/Orgnization/MIPS-Processor/Control_Unit.vhd
 Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017

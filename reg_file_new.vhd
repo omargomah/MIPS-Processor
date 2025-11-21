@@ -78,14 +78,14 @@ begin
     	read1_addr_int <= to_integer(unsigned(read1_addr));
 	read2_addr_int <= to_integer(unsigned(read2_addr));
 	write_addr_int <= to_integer(unsigned(write_addr));
+        data_out_1 <= mem_array(read1_addr_int);
+	data_out_2 <= mem_array(read2_addr_int);
     process (clk)
     begin
         if rising_edge(clk) then
             if we = '1' then
                 mem_array(write_addr_int) <= data_in; 
             end if;
-	    data_out_1 <= mem_array(read1_addr_int);
-	    data_out_2 <= mem_array(read2_addr_int);
         end if;
     end process;
 end architecture rtl;
