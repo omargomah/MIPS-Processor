@@ -34,9 +34,8 @@ Component reg_file is
 	data_out_2 : out std_logic_vector(31 downto 0)
     );
 end Component;
-Component instruction_momery is 
+Component instruction_momery_new is 
 port(
-clk: in std_logic;
 address:in std_logic_vector(31 downto 0); 
 word_out:out std_logic_vector(31 downto 0)
 );
@@ -81,7 +80,7 @@ port (
 alu_control: in std_logic_vector (3 downto 0);
 opr1 : in std_logic_vector (31 downto 0);
 opr2 : in std_logic_vector (31 downto 0);
-result: inout std_logic_vector (31 downto 0) ;
+result: inout std_logic_vector (31 downto 0);
 zero_flag: out std_logic
 );
 end Component;
@@ -120,7 +119,7 @@ signal AluControlOut :std_logic_vector (3 downto 0) ;
 signal JumpShiftLeftOut: std_logic_vector (27 downto 0);
 begin
 pc_x: PC port map(CLK,MuxJumpOut,pc_out);
-inst_mem_x: instruction_momery port map(CLK,pc_out,ins_out);
+inst_mem_x: instruction_momery_new port map(pc_out,ins_out);
 control_unit_x: Control_Unit port map(ins_out(31 downto 26),Regdst,Jump ,Branch,Memread,Memtoreg,Alu_op,Memwrite,Alusrc,Regwrite);
 Mux_Regdst_x: Mux_5 port map(ins_out(20 downto 16),ins_out(15 downto 11),Regdst,Mux_Regdst_out);
 reg_file_x: reg_file port map(CLK,Regwrite,ins_out(25 downto 21),ins_out(20 downto 16),Mux_Regdst_out,MuxMemToRegOut,ReadData1,ReadData2);

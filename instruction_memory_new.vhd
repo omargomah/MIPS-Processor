@@ -2,15 +2,14 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity instruction_momery is 
+entity instruction_momery_new is 
 port(
-clk: in std_logic;
 address:in std_logic_vector(31 downto 0); 
 word_out:out std_logic_vector(31 downto 0)
 );
-end instruction_momery;
+end instruction_momery_new;
 
-architecture Behavioral of instruction_momery is
+architecture Behavioral of instruction_momery_new is
 
 type ins_memory is array (0 to 255) of std_logic_vector(7 downto 0);
 signal my_memory : ins_memory :=
@@ -45,25 +44,25 @@ signal my_memory : ins_memory :=
     18 => "11111111", -- Byte 18
     19 => "11111101", -- Byte 19
 
-    -- Instruction 5: "00000001001010000100000000100100" (and $t0, $t1, $t0)
+    -- Instruction 5: "00000001001010000100000000100100" (and $t0, $t1, $t0)   --t0=X"00000100"
     20 => "00000001", -- Byte 20
     21 => "00101000", -- Byte 21
     22 => "01000000", -- Byte 22
     23 => "00100100", -- Byte 23
 
-    -- Instruction 6: "00000001001010000101000000100000" (add $t2, $t1, $t0)
+    -- Instruction 6: "00000001001010000101000000100000" (add $t2, $t1, $t0) --t2=X"00000201"
     24 => "00000001", -- Byte 24
     25 => "00101000", -- Byte 25
     26 => "01010000", -- Byte 26
     27 => "00100000", -- Byte 27
 
-    -- Instruction 7: "00000001001010000101000000100010" (sub $t2, $t1, $t0)
+    -- Instruction 7: "00000001001010000101000000100010" (sub $t2, $t1, $t0)   --t2=X"00000001"
     28 => "00000001", -- Byte 28
     29 => "00101000", -- Byte 29
     30 => "01010000", -- Byte 30
     31 => "00100010", -- Byte 31
 
-    -- Instruction 8: "00000001001010010100000000101010" (slt $t0, $t2, $t1)
+    -- Instruction 8: "00000001001010010100000000101010" (slt $t0, $t1, $t1)
     32 => "00000001", -- Byte 32
     33 => "00101001", -- Byte 33
     34 => "01000000", -- Byte 34
@@ -115,13 +114,8 @@ signal my_memory : ins_memory :=
 );
 
 begin
-process(clk)
-begin
-if rising_edge(clk) then
 word_out(31 downto 24)<=my_memory(to_integer(unsigned(address)));
 word_out(23 downto 16)<=my_memory(to_integer(unsigned(address)+1));
 word_out(15 downto 8)<=my_memory(to_integer(unsigned(address)+2));
 word_out(7 downto 0)<=my_memory(to_integer(unsigned(address)+3));
-end if;
-end process;
 end Behavioral;
